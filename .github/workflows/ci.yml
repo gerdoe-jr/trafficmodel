@@ -47,7 +47,7 @@ jobs:
       - name: Run poisson model
         run: |
           ./start_traffic_model.sh \
-            examples/poisson.txt \
+            examples/poisson_10_10.txt \
             examples/results/poisson/output.csv \
             poisson \
             67 \
